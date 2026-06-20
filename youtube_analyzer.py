@@ -1,9 +1,9 @@
 from textwrap import dedent
-from dotenv import load_dotenv
 
 from agno.agent import Agent
 from agno.models.groq import Groq
 from agno.tools.youtube import YouTubeTools
+from dotenv import load_dotenv
 
 load_dotenv()
 
